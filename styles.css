@@ -1,0 +1,108 @@
+#nav {
+  width: 100%;
+  height: 2rem;
+  background-color: #ccc;
+}
+
+#nav a {
+  font-size; 80%;
+  text-decoration: none;
+  padding-right: 2rem;
+}
+
+#pagebanner {
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  background-image: none; /*url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxYC2ZagQ1zNJJT8azRQQGNa5IGaBk5ZR-ag&usqp=CAU);*/
+  background-size: cover;
+  background-position: center top;
+  box-shadow: 5px 5px 5px #fae20f;  
+}
+
+* {
+  box-sizing: border-box;
+}
+div {
+  display: flex;
+  width: 100vw;
+  padding: 1vw;
+}
+#ingredients {
+  background-color: #bcfa5f;
+}
+#equipment {
+  background-color: #fa695f;
+}
+#directions {
+  background-color: #ae79fc;
+}
+#pagebanner h1 {
+  font-family: "Oswald", sans-serif;
+  padding-left: 25px;
+  padding-top:33px;
+  font-size: 4em;
+  text-shadow: 0px 5px 5px #fae20f;
+ 
+}
+#pagebanner h4 {
+  font-family: "Oswald", sans-serif;
+  padding-top:77px;
+  font-size: 1em;
+  display: block;
+  color: blue;
+}
+
+#pagebanner h1.tp {
+  font-size: 2em;
+}/* changes title size to smaller */
+
+#pagebanner h1.color {
+  color: red;
+  text-shadow: 0px 5px 5px #000000;
+}//* switches colors when clicked */
+
+
+h4 {
+  margin-bottom: 0;
+  color: blue;
+}
+
+ul, ol {
+  margin-top: 0;
+}
+
+.copyright {
+  font-family: Arial;
+  font-size: 9px;
+  font-style: italic;
+}
+
+#equipment ul {
+  font-style: italic;
+}
+
+
+
+/* media breakpoints */
+@media (max-width: 576px) { 
+  div {
+    display: inline-block;   
+    float: left;
+  }
+}
+
+@media (max-width: 576px orientation: landscape) {
+  div {
+    width: calc(100vw/3);
+    float: left;
+  }
+}
+
+@media (max-width: 768px) { 
+  div {
+    display: inline-block;   
+    float: left;
+  }
+
+  
